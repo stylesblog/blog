@@ -1,0 +1,76 @@
+body {
+    text-align:center;
+    color:white;
+
+}
+
+@font-face {
+    font-family: Caveat;
+    src: url(fonts/caveat.ttf);
+  }
+
+  @font-face {
+    font-family: Urbanist;
+    src: url(fonts/urbanist.ttf);
+  }
+
+h2 {
+    font-family:Caveat;
+    color:blue;
+    font-size:26px;
+    text-decoration:underline
+
+}
+
+h1 {
+    font-family: Urbanist;
+}
+
+html { 
+  background: url(images/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+  font-family:Urbanist;
+}
+
+h3 {
+  font-family:Caveat;
+  color:yellow;
+  font-size:27px;
+  text-decoration:underline;
+
+}
+
+h4 {
+  font-family:Caveat;
+  color:green;
+  font-size:26px;
+  text-decoration:underline;
+
+}
+
+img {
+  border-radius: 28%;
+  border-style:solid;
+  border-color:darkgrey;
+  border-width:8px;
+}
+
+h5 {
+  font-family:Caveat;
+  color:darkred;
+  font-size:26px;
+  text-decoration:underline;
+
+}
+
+h6 {
+  font-family:Urbanist;
+  color:darkred;
+  font-size:21px;
+}
